@@ -91,7 +91,10 @@
   align-items: space-around;
   margin: 5px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f49adef (Requisito 13)
 .select-section label {
   font-size: 25px;
   margin-left: 10px;
@@ -108,7 +111,58 @@
 
 .radio-input-section {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
+=======
+}
+
+.radio-section {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 10px;
+}
+
+.radio-section div {
+  font-size: 15px;
+  margin-top: 10px;
+  justify-items: flex-start;
+  margin-left: 0;
+}
+
+.radio-section label {
+    margin: auto;
+}
+
+.checkbox-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  justify-content: center;
+}
+
+.checkbox-section p {
+  padding: 10px;
+  align-self: center;
+  margin: auto;
+}
+
+.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 300px;
+}
+
+.checkbox-column {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 5px 20px 5px 20px;
+  text-align: center;
+  align-items: center;
+>>>>>>> f49adef (Requisito 13)
 }
 
 footer {
