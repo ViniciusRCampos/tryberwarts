@@ -91,10 +91,6 @@
   align-items: space-around;
   margin: 5px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> f49adef (Requisito 13)
 .select-section label {
   font-size: 25px;
   margin-left: 10px;
@@ -111,9 +107,6 @@
 
 .radio-input-section {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column;
-=======
 }
 
 .radio-section {
@@ -121,6 +114,10 @@
   flex-direction: column;
   width: 250px;
   margin: 10px;
+}
+
+.line{
+    border: 1px solid black;
 }
 
 .radio-section div {
@@ -162,7 +159,6 @@
   margin: 5px 20px 5px 20px;
   text-align: center;
   align-items: center;
->>>>>>> f49adef (Requisito 13)
 }
 
 footer {
