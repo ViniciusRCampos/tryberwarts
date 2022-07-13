@@ -73,6 +73,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+  justify-content: space-around;
   border: 1px solid red;
 }
 .form-input-section input {
@@ -101,6 +102,12 @@
     border-radius: 5px;
 }
 
+.radio-input-section{
+    display: flex;
+    flex-direction: column;
+
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -110,3 +117,4 @@ footer {
     color: white;
     font-size: 15px;
 }
+
