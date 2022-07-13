@@ -13,3 +13,14 @@ submit.addEventListener('click', () => {
 document.getElementById('agreement').addEventListener('click', (e) => {
   document.getElementById('submit-btn').disabled = !e.target.checked;
 });
+
+const textArea = document.getElementById('textArea');
+const counter = document.getElementById('counter');
+
+textArea.addEventListener('input', (input) => {
+  const { target } = input;
+  const maxLength = target.getAttribute('maxlength');
+  const currentLength = target.value.length;
+
+  counter.innerHTML = `${currentLength}/${maxLength}`;
+});
