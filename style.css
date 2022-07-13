@@ -40,7 +40,7 @@
   width: 100px;
   height: 30px;
   color: white;
-  background-color: #4f2c83;
+  background-color: rgb(79, 44, 131);
   border-radius: 5px;
   border: none;
 }
@@ -59,6 +59,7 @@
   padding: 10px;
   border: 1px solid red;
 }
+
 #evaluation-form h1 {
   margin-bottom: 20px;
   font-size: 35px;
@@ -76,6 +77,7 @@
   justify-content: space-around;
   border: 1px solid red;
 }
+
 .form-input-section input {
   width: 45%;
   height: 45px;
@@ -84,37 +86,37 @@
   border-radius: 5px;
 }
 
-.select-section{
-    display: flex;
-    align-items: space-around;
-    margin: 5px;
+.select-section {
+  display: flex;
+  align-items: space-around;
+  margin: 5px;
 }
-.select-section label{
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: 7px;
+
+.select-section label {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 7px;
 }
+
 .select-section select {
-    width: 230px;
-    margin-left: 10px;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 5px;
+  width: 230px;
+  margin-left: 10px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.radio-input-section{
-    display: flex;
-    flex-direction: column;
-
+.radio-input-section {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    background-color: rgb(59, 64, 74);
-    color: white;
-    font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(59, 64, 74);
+  color: white;
+  font-size: 15px;
 }
-

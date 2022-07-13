@@ -10,11 +10,6 @@ submit.addEventListener('click', () => {
   }
 });
 
-
-
-
-
-
-document.getElementById('agreement').addEventListener('click', function (e) {
-document.getElementById('submit-btn').disabled = !e.target.checked;
+document.getElementById('agreement').addEventListener('click', (e) => {
+  document.getElementById('submit-btn').disabled = !e.target.checked;
 });
