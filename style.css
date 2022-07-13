@@ -45,14 +45,40 @@
   border: none;
 }
 
-#evaluation-form, .main-form{
-display: flex;
+.main-form{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
 }
+
 #evaluation-form{
+    display: flex;
     width: 675px;
     flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+#evaluation-form h1{
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 #trybewarts-forms-logo{
     height: 500px;
+    border: 1px solid red;
+}
+
+.form-input-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 80%;
+    border: 1px solid red;
+    
+}
+.form-input-section input{
+    width: 45%;
+    height: 45px;
+    margin-left: 10px;
 }
