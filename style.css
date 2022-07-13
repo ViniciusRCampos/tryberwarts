@@ -100,3 +100,13 @@
     text-align: center;
     border-radius: 5px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(59, 64, 74);
+    color: white;
+    font-size: 15px;
+}
