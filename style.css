@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+body {
+  background-color: hwb(0 94% 6%);
+  height: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -48,7 +53,7 @@
 .main-form {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
+  height: 100%;
 }
 
 #evaluation-form {
@@ -57,17 +62,26 @@
   flex-direction: column;
   text-align: center;
   padding: 10px;
-  border: 1px solid red;
 }
 
 #evaluation-form h1 {
+  padding-top: 30px;
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 25px;
+}
+
+#evaluation-form input {
+  border: none;
+  padding-left: 10px;
+}
+
+.select-section select {
+  border: none;
 }
 
 #trybewarts-forms-logo {
+  margin-top: 50px;
   height: 500px;
-  border: 1px solid red;
 }
 
 .form-input-section {
@@ -75,7 +89,6 @@
   flex-wrap: wrap;
   align-content: space-between;
   justify-content: space-around;
-  border: 1px solid red;
 }
 
 .form-input-section input {
@@ -117,7 +130,8 @@
 }
 
 .line{
-    border: 1px solid black;
+    margin-top: 10px;
+    border: 1px solid rgb(147, 147, 147);
 }
 
 .radio-section div {
@@ -161,7 +175,9 @@
   align-items: center;
 }
 
+
 footer {
+  margin-bottom: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,4 +185,22 @@ footer {
   background-color: rgb(59, 64, 74);
   color: white;
   font-size: 15px;
+}
+
+
+#textArea {
+  border: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  margin-top: 10px;
+}
+
+
+#submit-btn {
+  margin-top: 10px;
+  padding: 5px;
 }
