@@ -173,6 +173,13 @@ body {
   align-items: center;
 }
 
+.label-rate-section{
+    margin:15px;
+}
+#label-rate{
+margin: 10px;
+}
+
 footer {
   margin-top: 135px;
   display: flex;
