@@ -6,6 +6,7 @@
 body {
   background-color: hwb(0 94% 6%);
   height: 100%;
+  grid-row: ;
 }
 
 .header {
@@ -97,6 +98,7 @@ body {
   margin: 5px;
   font-size: 25px;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .select-section {
@@ -105,7 +107,7 @@ body {
   margin: 5px;
 }
 .select-section label {
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 10px;
   margin-top: 7px;
 }
@@ -129,9 +131,9 @@ body {
   margin: 10px;
 }
 
-.line{
-    margin-top: 10px;
-    border: 1px solid rgb(147, 147, 147);
+.line {
+  margin-top: 10px;
+  border: 1px solid rgb(147, 147, 147);
 }
 
 .radio-section div {
@@ -142,7 +144,7 @@ body {
 }
 
 .radio-section label {
-    margin: auto;
+  margin: auto;
 }
 
 .checkbox-section {
@@ -175,9 +177,8 @@ body {
   align-items: center;
 }
 
-
 footer {
-  margin-bottom: auto;
+  margin-top: 135px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,7 +187,6 @@ footer {
   color: white;
   font-size: 15px;
 }
-
 
 #textArea {
   border: none;
@@ -198,7 +198,6 @@ footer {
 .textarea {
   margin-top: 10px;
 }
-
 
 #submit-btn {
   margin-top: 10px;
